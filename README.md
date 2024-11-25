@@ -1,6 +1,6 @@
 # Country Search App
 
-A Flutter application to search for countries dynamically using the REST Countries API. The app features real-time search suggestions, error handling, and a user-friendly UI.
+A Flutter application to search for countries dynamically using the REST Countries API and a user-friendly UI.
 
 ---
 
@@ -8,7 +8,7 @@ A Flutter application to search for countries dynamically using the REST Countri
 
 ### Dynamic Search with Debouncing
 - Implemented a search bar with real-time suggestions for country names.
-- Debouncing logic ensures minimal API calls by delaying the request until the user stops typing.
+- (new learning) "Debouncing" this logic ensures minimal API calls by delaying the request until the user stops typing.
 
 ### API Integration
 - Integrated with the REST Countries API to fetch country data dynamically.
@@ -27,15 +27,9 @@ A Flutter application to search for countries dynamically using the REST Countri
 
 ---
 
-## Getting Started
+## How to Run the app 
+- Flutter pub get (to install all the required packages)
+- Select your real time / virtual device 
+- Hit "flutter run" in terminal
 
-### Prerequisites
-1. Install Flutter SDK: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
-2. Set up your development environment (Android Studio, VS Code, IntelliJ IDEA, etc.).
-3. Ensure you have a connected emulator or physical device.
 
-### Installation
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-link>
-   cd <repository-folder>
