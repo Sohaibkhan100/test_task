@@ -72,7 +72,7 @@ class SearchScreenController extends GetxController {
   // Debounce input
   void onSearchChanged(String query) {
     if (debounce?.isActive ?? false) debounce!.cancel();
-    debounce = Timer(const Duration(milliseconds: 300), () {
+    debounce = Timer(const Duration(milliseconds: 500), () {
       fetchCountries(query);
     });
   }
